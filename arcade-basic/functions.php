@@ -252,11 +252,11 @@ function bavotasan_pagination() {
 	<nav class="navigation clearfix" role="navigation">
 		<h1 class="sr-only"><?php _e( 'Posts navigation', 'arcade' ); ?></h1>
 		<?php if ( get_next_posts_link() ) : ?>
-		<div class="nav-previous"><?php next_posts_link( __( '&larr; Older posts', 'arcade' ) ); ?></div>
+		<div class="nav-previous"><?php next_posts_link( __( '&larr; Vanad postitused', 'arcade' ) ); ?></div>
 		<?php endif; ?>
 
 		<?php if ( get_previous_posts_link() ) : ?>
-		<div class="nav-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'arcade' ) ); ?></div>
+		<div class="nav-next"><?php previous_posts_link( __( 'Uued postitused &rarr;', 'arcade' ) ); ?></div>
 		<?php endif; ?>
 	</nav><!-- .navigation -->
 	<?php
@@ -364,7 +364,7 @@ function bavotasan_excerpt_more( $text ) {
 	if ( is_singular() )
 		return $text;
 
-	return '<p class="excerpt">' . $text . ' <a href="' . get_permalink( get_the_ID() ) . '">' . __( 'Read more &rarr;', 'arcade' ) . '</a></p>';
+	return '<p class="excerpt">' . $text . ' <a href="' . get_permalink( get_the_ID() ) . '">' . __( 'Loe rohkem &rarr;', 'arcade' ) . '</a></p>';
 }
 endif; // bavotasan_excerpt_more
 

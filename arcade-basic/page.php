@@ -22,7 +22,7 @@ get_header();
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 
 					    <div class="entry-content description clearfix">
-						    <?php the_content( __( 'Read more', 'arcade') ); ?>
+						    <?php the_content( __( 'Loe rohkem', 'arcade') ); ?>
 					    </div><!-- .entry-content -->
 
 					    <?php get_template_part( 'content', 'footer' ); ?>
