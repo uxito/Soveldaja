@@ -1,0 +1,10 @@
+#site-navigation {
+	background-color: #f94242;
+}
+
+.main-navigation li.current_page_item > a,
+.main-navigation li.current-menu-item > a,
+.main-navigation li.current_page_ancestor > a,
+.main-navigation li.current_page_parent > a {
+	border-color: #3a3a3a;
+}
